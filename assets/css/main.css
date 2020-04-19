@@ -1586,7 +1586,8 @@
 
 	body {
 		background-color: #fff;
-		color: #999999;
+		/*color: #999999;*/
+		color: #254785;
 	}
 
 	body, input, select, textarea {
@@ -2896,7 +2897,7 @@
 
 		.wrapper.style1 {
 			background-color: #fafafa;
-			color: #999999;
+			color: #2F2828;
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
