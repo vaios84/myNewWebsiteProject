@@ -1568,7 +1568,7 @@
 	}
 
 	body {
-		background: #E1E7E4;
+		background: #ffffff;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1585,7 +1585,7 @@
 /* Type */
 
 	body {
-		background-color: #E1E7E4;
+		background-color: #ffffff;
 		color: #000000;
 	}
 
