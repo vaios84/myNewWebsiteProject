@@ -1802,6 +1802,8 @@
 		border: 0;
 		border-bottom: solid 1px;
 		margin: 2em 0;
+		background-color:#6699CC;
+		opacity: 0.6;
 	}
 
 		hr.major {
@@ -1876,7 +1878,7 @@
 
 	.box {
 		border-color: rgba(0, 0, 0, 0.1);
-		background: #3498db;
+		background: #a0a0a0;
 	}
 
 /* Button */
