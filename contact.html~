@@ -30,16 +30,16 @@
 		<!-- Main -->
 			<div id="main">
 				
-				
 				<!-- A Scroll To Top Button -->
 				<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+				
 
 				<!-- Section -->
 				<section class="wrapper">
 					<div class="inner">
-
+					
 						<header class="align-center">
-							<h1>Contact our team</h1>
+							<h1>Contact us</h1>
 							
 						</header>
 						
@@ -141,8 +141,7 @@
 
 
 							</div>
-						</div>
-					</div>
+						
 				</section>
 			</div>
 
@@ -153,7 +152,7 @@
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 					</ul>
-					<p>&copy; VAST. All rights reserved. Design: <a href="#">Vaios Stergio</a>. Images: <a href="https://unsplash.com" target="_blank">Unsplash</a>.</p>
+					<p>&copy; VAST. All rights reserved. Design: <a href="#">VAST</a>. Images: <a href="https://unsplash.com" target="_blank">Unsplash</a>.</p>
 				</div>
 			</footer>
 
