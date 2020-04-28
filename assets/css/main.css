@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
 
@@ -6,6 +6,7 @@
 	Urban by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	Updated by vaios stergiopoulos
 */
 
 /* Reset */
@@ -17,6 +18,11 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+	}
+
+	p span {
+		color: blue;
+		
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1555,11 +1561,12 @@
 		  display: none; /* Hidden by default */
 		  position: fixed; /* Fixed/sticky position */
 		  bottom: 20px; /* Place the button at the bottom of the page */
-		  right: 30px; /* Place the button 30px from the right */
-		  z-index: 99; /* Make sure it does not overlap */
+		  right: 20px; /* Place the button 30px from the right */
+		  z-index: 1000; /* Make sure it does not overlap */
 		  border: none; /* Remove borders */
 		  outline: none; /* Remove outline */
-		  background-color: darkblue; /* Set a background color */
+		  background-color: red; /* Set a background color */
+		  opacity: 0.70; 
 		  color: white; /* Text color */
 		  cursor: pointer; /* Add a mouse pointer on hover */
 		  padding: auto; /* Some padding */
@@ -1568,7 +1575,7 @@
 	}
 
 	#myBtn:hover {
-		  background-color: #555; /* Add a dark-grey background on hover */
+		  background-color: darkblue; /* Add background on hover */
 	}
 
 	@-ms-viewport {
@@ -1827,11 +1834,11 @@
 	}
 
 	a {
-		color: #999999;
+		color: gray;
 	}
 
 		a:hover {
-			color: rgba(153, 153, 153, 0.5);
+			color: blue;
 		}
 
 	strong, b {

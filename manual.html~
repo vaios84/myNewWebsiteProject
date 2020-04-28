@@ -77,8 +77,8 @@
 							<hr>
 							<p><span>Important Note!</span><br>
 							Optiflow is to be used by companies/shops/stores that use just one PC (personal computer/Laptop) 
-							to control their products inventory. It can’t be used to support a network because the database is stored locally (embedded database). <br>
-							So, use Optiflow in one PC only. </p>
+							to control their products inventory. So, use Optiflow in one PC only. <br>
+							It can’t be used to support a network because the database is stored locally (embedded database). </p>
 							
 							<hr>					
 							<h4>Table of contents <br>
