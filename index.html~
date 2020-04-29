@@ -8,6 +8,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
 	</head>
 	<body>
 
@@ -221,7 +222,7 @@
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 					</ul>
-					<p>&copy; VAST. All rights reserved. Design: <a href="#">Vaios Stergio</a>. Images: <a href="https://unsplash.com" target="_blank">Unsplash</a>.</p>
+					<p>&copy; VAST. All rights reserved. Design: <a href="#">VAST</a>. Images: <a href="https://unsplash.com" target="_blank">Unsplash</a>.</p>
 				</div>
 			</footer>
 
