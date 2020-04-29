@@ -1565,8 +1565,8 @@
 		  z-index: 1000; /* Make sure it does not overlap */
 		  border: none; /* Remove borders */
 		  outline: none; /* Remove outline */
-		  background-color: gray; /* Set a background color */
-		  opacity: 0.50; 
+		  background-color: darkblue; /* Set a background color */
+		  
 		  color: white; /* Text color */
 		  cursor: pointer; /* Add a mouse pointer on hover */
 		  padding: auto;  /* Some padding */
@@ -1576,7 +1576,7 @@
 	}
 
 	#myBtn:hover {
-		  background-color: black; /* Add background on hover */
+		  background-color: gray; /* Add background on hover */
 	}
 
 	@-ms-viewport {

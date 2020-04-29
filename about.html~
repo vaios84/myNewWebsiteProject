@@ -5,8 +5,8 @@
 <html>
 	<head>
 		<title>Optiflow by vast</title>
-		<meta charset="utf-8" />
 		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
@@ -47,7 +47,7 @@
 									<p>We love creating useful applications and tools for everyone. We design, code and share our software products. We are very interested to receive feedback and comments from the users of our software. </p>
 									<p>We use technologies like JAVA, XML, HTML5, CSS, Javascript and jQuery. The tools we love to use are Netbeans, Atom, Geany, Bluefish, Github and more.</p>
 									<p><strong>If you feel like meeting us or need any further info, drop us a line <a href="contact.html" target="_blank">here</a>.</strong></p>
-									<p>Also, you can reach our team at this email: <span><a href="mailto:software.vast@gmail.com">software.vast@gmail.com</a></span> </p>
+									<p><strong>Also, you can reach our team at this email: <span><a href="mailto:software.vast@gmail.com">software.vast@gmail.com</a></span> </strong></p>
 								</div>
 								<div class="col col1 first">
 									<div class="image round fit">
