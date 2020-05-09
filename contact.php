@@ -96,7 +96,7 @@
 												<div class="12u$">
 													<ul class="actions">
 														<li><input type="submit" name="submit" value="Send Message" /></li>
-														<li><input type="reset" value="Reset" class="alt" /></li>
+														<li><input type="reset" value="Reset" class="alt" onClick="window.location.reload();" /></li>
 													</ul>
 												</div>
 											</div>
