@@ -23,7 +23,7 @@
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="manual.html">User Manual</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="contact.php">Contact</a></li>
 					<li><a href="about.html">About</a></li>
 				</ul>
 			</nav>
@@ -62,50 +62,49 @@
 										<h3>Form</h3>
 										
 
-										<form method="post" action="mail.php">
+										<form method="post" action="mail.php" enctype="multipart/form-data" onsubmit="return validateContactForm()">
 											<div class="row uniform">
-												<div class="6u 12u$(xsmall)">
+												<div class="6u 12u$(xsmall)" id="userName-info">
 													<input type="text" name="name" id="name" value="" placeholder="Name" />
 												</div>
-												<div class="6u$ 12u$(xsmall)">
+												<div class="6u$ 12u$(xsmall)" id="userEmail-info">
 													<input type="email" name="email" id="email" value="" placeholder="Email" />
 												</div>
 												<!-- Break -->
-												<div class="12u$">
+												<div class="12u$" id="subject-info">
 													<div class="select-wrapper">
 														<select name="category" id="category">
 															<option value="">- Category -</option>
 															<option value="1">Current user</option>
-															<option value="1">Interested to become user</option>
+															<option value="1">Interested to become a user</option>
 															<option value="1">Partner-Reseller</option>
-															<option value="1">Friendly note</option>
 															<option value="1">Other</option>
 														</select>
 													</div>
 												</div>
 												
-												<div class="6u$ 12u$(small)">
-													<input type="checkbox" id="human" name="human" checked>
-													<label for="human">I am not a robot</label>
+												<div class="6u$ 12u$(small)" id="human-info">
+													<input type="checkbox" id="human" name="human" >
+													<label for="human">I am not a robot</label><br>
+													<p id="textCheckButton" style="display:none">Please check!</p>
 												</div>
 												<!-- Break -->
-												<div class="12u$">
-													<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+												<div class="12u$" id="userMessage-info">
+													<textarea name="message" id="message" placeholder="Enter your message" cols="60" rows="6"></textarea>
 												</div>
 												<!-- Break -->
 												<div class="12u$">
 													<ul class="actions">
-														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="submit" name="submit" value="Send Message" /></li>
 														<li><input type="reset" value="Reset" class="alt" /></li>
 													</ul>
 												</div>
 											</div>
 										</form>
 
-										<hr />
+										<hr>
 
 										
-
 									<!-- Section -->
 									<section class="wrapper style2">
 										<div class="inner">
@@ -149,6 +148,50 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/scrolltopbutton.js"></script>
+			
+			<script type="text/javascript">
+				function validateContactForm() {
+						var valid = true;
+
+						var userName = $("#name").val();
+						var userEmail = $("#email").val();
+											
+						var ishuman = document.getElementById("human");
+						var text = document.getElementById("textCheckButton");
+						
+						var content = $("#message").val();
+						
+						if (userName == "") {
+							$("#userName-info").html("Name required.");
+							$("#name").css('border', '#e66262 1px solid');
+							valid = false;
+						}
+						if (userEmail == "") {
+							$("#userEmail-info").html("Email required.");
+							$("#email").css('border', '#e66262 1px solid');
+							valid = false;
+						}
+						if (!userEmail.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/))
+						{
+							$("#userEmail-info").html("Invalid Email Address.");
+							$("#email").css('border', '#e66262 1px solid');
+							valid = false;
+						}
+						
+						if (ishuman.checked != true) {
+							textCheckButton.style.display = "block";
+							valid = false;
+						}
+						
+						
+						if (content == "") {
+							$("#userMessage-info").html("Message required.");
+							$("#message").css('border', '#e66262 1px solid');
+							valid = false;
+						}
+						return valid;	
+				}
+			</script>
 
 	</body>
 </html>
