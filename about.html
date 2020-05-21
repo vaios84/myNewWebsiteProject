@@ -22,7 +22,7 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="manual.html">User Manual</a></li>
+					<li><a href="manual.html">Get started</a></li>
 					<li><a href="contact.php">Contact</a></li>
 					<li><a href="about.html">About</a></li>
 				</ul>
