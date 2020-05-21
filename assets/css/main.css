@@ -1557,26 +1557,33 @@
 
 /* Basic */
 
-	#myBtn {
-		  display: none; /* Hidden by default */
-		  position: fixed; /* Fixed/sticky position */
-		  bottom: 30px; /* Place the button at the bottom of the page */
-		  right: 20px; /* Place the button 30px from the right */
-		  z-index: 1000; /* Make sure it does not overlap */
-		  border: none; /* Remove borders */
-		  outline: none; /* Remove outline */
-		  background-color: darkblue; /* Set a background color */
-		  
-		  color: white; /* Text color */
-		  cursor: pointer; /* Add a mouse pointer on hover */
-		  padding: auto;  /* Some padding */
-		  border-radius: 10px; /* Rounded corners */
-		  font-size: 18px; /* Increase font size */
-		  
+	#back2Top {
+		width: 50px;
+		line-height: 50px;
+		overflow: hidden;
+		z-index: 999;
+		display: none;
+		cursor: pointer;
+		-moz-transform: rotate(270deg);
+		-webkit-transform: rotate(270deg);
+		-o-transform: rotate(270deg);
+		-ms-transform: rotate(270deg);
+		transform: rotate(270deg);
+		position: fixed;
+		bottom: 50px;
+		right: 10px;
+		border: solid gray 1px;
+		border-radius: 10px;
+		background-color: #DDD;
+		color: #555;
+		text-align: center;
+		font-size: 30px;
+		text-decoration: none;
 	}
-
-	#myBtn:hover {
-		  background-color: gray; /* Add background on hover */
+	
+	#back2Top:hover {
+		background-color: #DDF;
+		color: #000;
 	}
 
 	@-ms-viewport {

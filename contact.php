@@ -32,7 +32,8 @@
 			<div id="main">
 				
 				<!-- A Scroll To Top Button -->
-				<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+				<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+
 				
 
 				<!-- Section -->
@@ -76,9 +77,9 @@
 														<select name="category" id="category">
 															<option value="">- Category -</option>
 															<option value="1">Current user</option>
-															<option value="1">Interested to become a user</option>
-															<option value="1">Partner-Reseller</option>
-															<option value="1">Other</option>
+															<option value="2">Interested to become a user</option>
+															<option value="3">Partner-Reseller</option>
+															<option value="4">Other</option>
 														</select>
 													</div>
 												</div>
