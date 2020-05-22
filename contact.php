@@ -2,13 +2,13 @@
 <!--
 	vaios stergiopoulos
 -->
-<html>
+<html lang="en">
 	<head>
 		<title>Optiflow by vast</title>
-		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+		<link rel='icon' href='favicon.ico' type='image/x-icon'/>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="assets/css/main.css"/>
 	</head>
 	<body class="subpage">
 
@@ -116,7 +116,7 @@
 												</div>
 												<div class="col col1 first">
 													<div class="image round fit">
-														<img src="images/pic15.jpg" alt="" />
+														<img src="images/pic15.jpg" alt="optiflow-vast-images"/>
 													</div>
 												</div>
 											</div>
